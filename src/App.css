@@ -1,0 +1,128 @@
+/* comman file */
+
+.comman_header {
+  background-color: #009688;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  font-weight: 700;
+
+  color: white;
+}
+.comman {
+  border-top: none;
+  margin: 10px;
+  padding: -30px;
+}
+.comman_head {
+  background-color: #aa47bd;
+}
+.comman_head > h6 {
+  padding: 8px;
+  font-size: 16px;
+  color: white;
+}
+
+.table_responsive {
+  overflow-x: auto;
+  background-color: rgba(245, 245, 245, 0.908);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.table_responsive > table > thead > tr > th {
+  min-width: 150px;
+}
+.table_responsive > table,
+td,
+th,
+tr {
+  border: 1px solid #240012 !important;
+  padding: -8px;
+}
+th {
+  background-color: #007180 !important;
+}
+td:hover {
+    
+    color: rgb(208, 22, 232);
+}
+
+.siva {
+  min-width: 300px;
+}
+
+.table > :not(caption) > * > * {
+  padding: 0.3rem !important;
+}
+
+/* Auth page css */
+.containers {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../src/asset/retail.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+.form {
+  position: relative;
+  min-width: 30%;
+  margin: 0 auto;
+  background-color: rgba(177, 177, 177, 0.7);
+  padding: 20px;
+  border-radius: 25px;
+  color: white;
+  /* box-shadow: inset -10px -10px rgba(0, 0, 0, 0.5); */
+}
+.error {
+  color: red;
+  text-align: end;
+}
+.over {
+  cursor: pointer;
+  transition: transform 200ms ease-in-out;
+  padding: 5px 20px;
+  color: white;
+  /* text-decoration: none !important; */
+}
+.over:hover {
+  transform: scale(1.09);
+  background-color: orangered;
+  border-radius: 1rem;
+}
+
+.spinner {
+  width: 1.5rem;
+}
+
+/* End auth page css */
+.kk{
+  margin-right:7px;
+}
+
+/* width*/
+::-webkit-scrollbar {
+  width: 5px;
+ 
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(0, 0, 0); 
+  border-radius: 5px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(0, 114, 143); 
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #005d92; 
+} 

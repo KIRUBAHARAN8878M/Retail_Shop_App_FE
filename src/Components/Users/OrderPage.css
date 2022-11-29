@@ -1,0 +1,39 @@
+.order-page {
+  width: 98%;
+  margin: 10px auto;
+  padding: 5px;
+}
+.order-page > h6 {
+  color: black;
+  padding: 10px;
+  width: 100%;
+  background-color: green;
+  color: white;
+}
+
+.order-table {
+  background-color: white;
+  padding: 15px;
+  max-width: 75%;
+  overflow-x: scroll;
+  margin: 15px auto;
+  border-radius: 10px;
+}
+.order-table > h4 {
+  padding: 10px;
+}
+
+@media (max-width: 1285px) {
+  .order-table {
+    background-color: white;
+    padding: 15px;
+    min-width: 90%;
+    overflow-x: scroll;
+    margin: 15px auto;
+    border-radius: 10px;
+  }
+}
+.cz{
+  font-size: 15px;
+  margin-right: 5px;
+}

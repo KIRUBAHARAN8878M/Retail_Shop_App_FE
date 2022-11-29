@@ -1,0 +1,14 @@
+.product-img{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+.ff{
+    background-color: white;
+    padding: 10px !important;
+    
+    overflow-x: scroll;
+    margin: 15px auto;
+    border-radius: 10px ;
+    height: 100% !important;
+}

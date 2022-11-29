@@ -1,0 +1,42 @@
+.main{
+  overflow-x: hidden;
+}
+.contain{
+  display: flex;
+}
+
+#left-side{
+  width: 15%;
+  min-height: 92.5vh;
+ 
+}
+.right-side{
+  width: 85%;
+  margin: 0 auto;
+  
+}
+
+@media (max-width:991px) {
+
+
+  #left-side{
+    width: 100%;
+    min-height: 100%;
+    z-index: 1;
+  }
+  .right-side{
+    width: 90%;
+    margin: 0 auto;
+    
+  }
+  .contain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hide{
+    display: none;
+  }
+
+} 
