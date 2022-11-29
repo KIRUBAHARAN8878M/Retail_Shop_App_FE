@@ -1,6 +1,6 @@
 # Retail_Shop_Inventory_App_FE
 <h1 >RETAIL SHOP INVENTORY APP</h1>
-<h5>Please Click below to visit our awesome Retail shop app</h5>
+<h5>Please Click below to visit our awesome Retail shop inventory app</h5>
 <a target='_blank' href='https://kiru-retail-shop-app.netlify.app'>click here</a>
 
 <div></div>
