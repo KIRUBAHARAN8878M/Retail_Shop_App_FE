@@ -96,7 +96,7 @@ function Login() {
     <>
       <div className="containers  bg-transparent">
         <form
-          className="form"
+          className="form mb-5 "
           onSubmit={(values) => {
             formik.handleSubmit(values);
           }}
@@ -167,12 +167,12 @@ function Login() {
         </form>
         <ToastContainer />
       </div>
-      <div className='mt-5 a card bg-info '>
-        <h1>note : -</h1>
-        <h4>Admin User : - </h4>
+   
+      <div className='mt-5  a card text-center text-dark bg-transparent '>
+       
+        <h5>credentials for Admin : - </h5>
         <p>Email : kirubam8878@gmail.com</p>
         <p>Password : Kiruba1234</p>
-        <h4>User : -</h4>
         <p>User kindly to create an account</p>
       </div>
       <Modal show={show} onHide={handleClose} animation={false}>
