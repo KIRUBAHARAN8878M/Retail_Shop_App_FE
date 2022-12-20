@@ -173,7 +173,9 @@ function Login() {
         <h5>credentials for Admin : - </h5>
         <p>Email : kirubam8878@gmail.com</p>
         <p>Password : Kiruba1234</p>
-        <p>User kindly to create an account</p>
+        <p>credentials for User : -</p>
+        <p>Email : kirubaharan8878m@gmail.com</p>
+        <p>Password : 12345678K</p>
       </div>
       <Modal show={show} onHide={handleClose} animation={false}>
         <Modal.Header closeButton>
