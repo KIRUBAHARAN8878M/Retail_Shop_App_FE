@@ -168,14 +168,16 @@ function Login() {
         <ToastContainer />
       </div>
    
-      <div className='mt-5  a card text-center text-dark bg-transparent '>
+      <div className='mt-5  a card text-center text-dark fw-bold bg-transparent '>
        
-        <span>credentials for Admin : - </span>
+       <span className="text-uppercase">credentials for Admin : - </span>
         <span>Email : kirubam8878@gmail.com</span>
         <sapn>Password : Kiruba1234</sapn>
-        <span>credentials for User : -</span>
+        <span className="text-uppercase">credentials for User : -</span>
         <span>Email : kirubaharan8878m@gmail.com</span>
         <sapn>Password : 12345678K</sapn>
+     
+      
       </div>
       <Modal show={show} onHide={handleClose} animation={false}>
         <Modal.Header closeButton>
