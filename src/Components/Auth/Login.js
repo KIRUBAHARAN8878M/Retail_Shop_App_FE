@@ -170,12 +170,12 @@ function Login() {
    
       <div className='mt-5  a card text-center text-dark bg-transparent '>
        
-        <h5>credentials for Admin : - </h5>
-        <p>Email : kirubam8878@gmail.com</p>
-        <p>Password : Kiruba1234</p>
-        <p>credentials for User : -</p>
-        <p>Email : kirubaharan8878m@gmail.com</p>
-        <p>Password : 12345678K</p>
+        <span>credentials for Admin : - </span><br />
+        <span>Email : kirubam8878@gmail.com</span><br />
+        <sapn>Password : Kiruba1234</sapn><br />
+        <span>credentials for User : -</span><br />
+        <span>Email : kirubaharan8878m@gmail.com</span><br />
+        <sapn>Password : 12345678K</sapn>
       </div>
       <Modal show={show} onHide={handleClose} animation={false}>
         <Modal.Header closeButton>
