@@ -172,10 +172,10 @@ function Login() {
        
        <span className="text-uppercase">credentials for Admin : - </span>
         <span>Email : kirubam8878@gmail.com</span>
-        <sapn>Password : Kiruba1234</sapn>
+        <sapn>Password : Admin@1234</sapn>
         <span className="text-uppercase">credentials for User : -</span>
         <span>Email : kirubaharan8878m@gmail.com</span>
-        <sapn>Password : 12345678K</sapn>
+        <sapn>Password : User@1234</sapn>
      
       
       </div>
