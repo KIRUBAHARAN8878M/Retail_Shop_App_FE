@@ -26,10 +26,10 @@ function Invoice() {
                                         <img className="img" alt="Invoce Template" src="http://pngimg.com/uploads/shopping_cart/shopping_cart_PNG59.png" />
                                     </div>
                                     <div className="col-sm-4 col-md-4 col-xl-3 text-right">
-                                        <h4 style={{ olor: "#F81D2D" }}><strong>Siva</strong></h4>
-                                        <p className='size'>1st' Steet ,Ram Backery</p>
+                                        <h4 style={{ olor: "#F81D2D" }}><strong>Kiruba</strong></h4>
+                                        <p className='size'>New Street, Kumbakonam</p>
                                         <p className='size'>1833-244-124</p>
-                                        <p className='size'>siva@gmail.com</p>
+                                        <p className='size'>kirubaharan8878m@gmail.com</p>
                                     </div>
                                 </div>
                                 <br />
