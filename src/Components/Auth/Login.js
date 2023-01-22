@@ -185,10 +185,7 @@ function Login() {
         </Modal.Header>
         <Modal.Body>
           <h5 className="fff">Your request Send to Admin.Plz Wait for conformation..!!!</h5>
-          <h5>note : - </h5>
-          <h6> step : 1 Go to Login admin Account</h6>
-          <h6> step : 2 Click User Button , User Window is open</h6>
-          <h6> step : 3 Select your account and change Roll to User</h6>
+         
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>

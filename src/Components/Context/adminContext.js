@@ -293,12 +293,9 @@ export const AdminProvider = ({ children }) => {
     const getDashboardBarChart = async (query) => {
         try {
             console.log(query);
-            // let value;
-            // if (!query) {
+           
                 let value = await axios.get(`${env.api}/inventory/dashboard-barChart/${query}`);
-            // } else {
-            //     value = await axios.get(`${env.api}/inventory/dashboard-barChart?q=${query}`);
-            // }
+           
             const { data } = value;
             setDashboardBarChart(data);
         } catch (error) {

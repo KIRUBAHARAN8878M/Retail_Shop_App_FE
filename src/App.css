@@ -1,4 +1,4 @@
-/* comman file */
+
 
 .comman_header {
   background-color: #009688;
@@ -76,7 +76,7 @@ td:hover {
   padding: 20px;
   border-radius: 25px;
   color: white;
-  /* box-shadow: inset -10px -10px rgba(0, 0, 0, 0.5); */
+
 }
 .error {
   color: red;
@@ -87,7 +87,7 @@ td:hover {
   transition: transform 200ms ease-in-out;
   padding: 5px 20px;
   color: white;
-  /* text-decoration: none !important; */
+  
 }
 .over:hover {
   transform: scale(1.09);

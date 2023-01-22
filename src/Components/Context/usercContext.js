@@ -4,10 +4,6 @@ import { useNavigate } from "react-router-dom";
 import { env } from "../../config";
 
 
-
-
-
-
 let UserContext = createContext();
 
 export const UserProvider = ({ children }) => {

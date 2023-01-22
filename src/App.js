@@ -34,14 +34,14 @@ import ProfilePage from "./Components/Users/ProfilePage";
 import YourOrder from "./Components/Users/YourOrder";
 
 function App() {
-  // let user = "admin";
+ 
   let user = window.localStorage.getItem("name");
   return (
     <div>
       <AdminProvider>
         <UserProvider>
           <Routes>
-            {/* Authentication Route */}
+      
 
             <Route path="/" element={<Login />} />
             <Route path="/register" element={<Register />} />
