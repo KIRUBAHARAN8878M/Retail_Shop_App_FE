@@ -34,7 +34,7 @@ function OneViewproduct() {
                     <input type="text" className="form-control shadow-none" value={viewProducts.brand} readonly />
                   </div>
                   <div className="form-group">
-                    <label className='siva'>Category</label>
+                    <label className='ki'>Category</label>
                     <input type="text" className="form-control shadow-none" value={viewProducts.category} readonly />
                   </div>
                   <div className="form-group">

@@ -88,7 +88,7 @@ function EditProducts() {
                       ) : null}
                     </div>
                     <div className="form-group">
-                      <label className='siva'>Category</label>
+                      <label className='ki'>Category</label>
                       <select className="form-select shadow-none" id="" value={formik.values.category}
                         onChange={formik.handleChange}
                         onBlur={formik.handleBlur}
