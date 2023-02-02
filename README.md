@@ -10,6 +10,6 @@
 <p>credentials for Admin : -</p>
 <p>Email : kirubam8878@gmail.com</p>
 <p>Password : Kiruba1234</p>
-<p>User kindly to create an account</p>
+
 
 </div>
